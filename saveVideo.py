@@ -15,6 +15,7 @@ capture = cv2.VideoCapture(camConn)
 
 # Video write FPS
 fps = 20 
+outputVideoPath = 'Output.avi'
 
 #video output
 frame = capture.read()
